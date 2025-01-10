@@ -1,3 +1,4 @@
+# Medium
 # You are given two string arrays words1 and words2.
 # A string b is a subset of string a if every letter in b occurs in a including multiplicity.
 # For example, "wrr" is a subset of "warrior" but is not a subset of "world".
@@ -36,11 +37,11 @@ class Solution:
 test_case_1 = {
     "words1": ["amazon","apple","facebook","google","leetcode"],
     "words2": ["e","o"],
-} # Expected output: ["facebook","google","leetcode"]
+} # Expect output: ["facebook","google","leetcode"]
 
 test_case_2 = {
     "words1": ["amazon","apple","facebook","google","leetcode"],
     "words2": ["l","e"],
-} # Expected output: ["apple","google","leetcode"]
+} # Expect output: ["apple","google","leetcode"]
 
 print(Solution.wordSubsets(test_case_1["words1"], test_case_1["words2"]))
